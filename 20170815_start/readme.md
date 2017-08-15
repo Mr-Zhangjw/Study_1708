@@ -59,4 +59,5 @@
     http://tool.oschina.net/commons?type=2
     
 1. 自学常见的转义字符
+2. 内联文本语义 标签  https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element
 2. 文字排版 http://www.unnuo.com/teach/010101-html.html
