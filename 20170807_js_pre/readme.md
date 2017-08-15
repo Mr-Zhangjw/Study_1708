@@ -12,7 +12,6 @@ alert('');
 console.log("");
 
 // 一切皆对象
-
 window.document.write('');
 window.alert('');
 window.console.log("");
