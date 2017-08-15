@@ -4,12 +4,12 @@
     - [1.1. 作业](#11-作业)
 - [2. 作息要求](#2-作息要求)
 - [3. 上课要求](#3-上课要求)
+- [HTML基础](#html基础)
+- [调试思路](#调试思路)
 
 <!-- /TOC -->
 
 # 1. markdown
-
-
 
 ```
     tab 注释
@@ -47,3 +47,35 @@
 4. 第二天早上，班长负责检查作业
 5. 上午，以讲作业和新知识点为主
 6. 下午，主要新知识点
+
+0. 每天晚上发日报
+
+# HTML基础
+```html
+<!DOCTYPE html>  // 文档声明，声明，我们使用的HTML版本，字母必须小写，嵌套必须正确
+
+<html lang="en"> // 整个网页，一定都在html标签里面
+    <head>  // 网页的信息，不会呈现在网页内容上
+        <meta charset="UTF-8">  // 原信息标签(编码)
+        <title>Document</title>  // 页面标题
+        <script src="main.js"></script>  // 引入js文件
+        <link rel="stylesheet" href="style.css"> // 引入css文件
+        <style>  // 内部样式
+            head{
+                height:100px;
+                background: #45fff0;
+            }
+        </style>
+    </head>
+    <body>
+        
+    </body>
+
+</html>
+
+```
+html里面的文件和代码，按顺序加载，默认按顺序执行
+
+#调试思路
+
+1. 查看Elements里显示的html，是否跟自己写的一致
