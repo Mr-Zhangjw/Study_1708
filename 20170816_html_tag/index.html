@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        div{
+            min-height: 10px;
+        }
         .container {
             width: 400px;
             height: 300px;
@@ -50,6 +53,77 @@
     <a href="#anchor3">锚点 3</a>
     <a href="#anchor4">锚点 4</a>
     <a href="#anchor5">锚点 5</a>
+
+    <hr>
+
+    <table border="1" cellspacing="0" width="400" height="400">
+        <tr>
+            <td colspan="2">单元格1</td>
+            <!-- <td>单元格2</td> -->
+            <td rowspan="2">单元格3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">单元格4</td>
+            <td>单元格5</td>
+            <!-- <td>单元格6</td> -->
+        </tr>
+        <tr>
+            <!-- <td>单元格7</td> -->
+            <td colspan="2">单元格8</td>
+            <!-- <td>单元格9</td> -->
+        </tr>
+    </table>
+
+    <hr>
+
+    <table width="320" height="200" cellspacing="0" border="1">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>籍贯</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">请用黑色签字笔填写请用黑色签字笔填写请用黑色签字笔填写请用黑色签字笔填写请用黑色签字笔填写请用黑色签字笔填写请用黑色签字笔填写</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <form action="./index.html" method="POST">
+        <input type="text" name="用户名">
+        <input type="text" name="昵称">
+        <input type="text" name="密码">
+        <input type="button" value="常规按钮"> 
+        <input type="reset" value="重置按钮">
+        <input type="submit" value="提交按钮">
+    </form>
+
 </body>
 
 </html>
