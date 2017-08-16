@@ -173,3 +173,5 @@ img、video、script ... 里面的 src属性，里面的地址
 # 4. 作业
 
 1. 自学 Emmet [Emmet文档](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
+2. table数字联系
+3. 学习input的type [input type 官方文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input#属性)
