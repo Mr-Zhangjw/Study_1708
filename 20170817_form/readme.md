@@ -2,19 +2,42 @@
 
 - [1. form](#1-form)
     - [1.1. label](#11-label)
-    - [1.2. input](#12-input)
+    - [1.2. textarea](#12-textarea)
+    - [1.3. input](#13-input)
+    - [1.4. select](#14-select)
+    - [1.5. option](#15-option)
+    - [1.6. optgroup](#16-optgroup)
+    - [1.7. 其它form控件](#17-其它form控件)
+- [2. form分组](#2-form分组)
+    - [2.1. fieldset](#21-fieldset)
+    - [2.2. legend](#22-legend)
+- [作业](#作业)
 
 <!-- /TOC -->
 # 1. form
 ## 1.1. label
         for     属性，指明绑定的form控件
                 点label 相当于点击for的目标
-## 1.2. input
+```html
+<label for="idvalue">用户名</label>
+<input type="text" id="idvalue">
+
+<label for="idvalue">
+        用户名
+        <input type="text" id="idvalue">
+</label>
+```
+## 1.2. textarea
+        多行文本输入框、编辑控件
+## 1.3. input
 pattern
         正则表达式，输入的东西，必须符合其格式
 
 min max step
         数字类input都支持
+
+minlength maxlength
+        最大输入多少字符
 
 placeholder
         占位符，文本类的输入框都有
@@ -31,6 +54,14 @@ readonly
 required*
         所有输入控件 都可以用
 
+cols rows
+        只用于textarea
+
+list
+        只用于，选择datalist的id
+
+label  
+        用于给optgroup设置分组名称
 
 通用属性
         autocomplete    默认为on，可以设置为off
@@ -91,3 +122,33 @@ type
         file    上传文件
         image   上传图片
 
+## 1.4. select
+
+        size            默认显示几行
+
+        multiple        可以多选，通过ctrl加鼠标多选
+
+## 1.5. option
+        作为select的选项，成对标签
+        作为datalist的选项，自结束标签
+
+## 1.6. optgroup
+        给option分组，分组名字，使用label属性
+
+## 1.7. 其它form控件
+
+        meter
+        output
+        progress        进度条
+
+# 2. form分组
+
+## 2.1. fieldset
+        给form控件
+## 2.2. legend
+        给fieldset设置标题
+
+# 作业
+
+1. 回顾所有的table和form内容
+2. 自学[内容分区元素](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element#内容分区) 

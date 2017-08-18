@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
+
+        <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+                <marquee behavior="alternate">
+                  This text will bounce
+                </marquee>
+              </marquee>
     <form action="">
         职位
         <br>
@@ -14,9 +22,9 @@
         <input type="checkbox" name="fav_game" value="2">销售
         <input type="checkbox" name="fav_game" required>开发
         <input type="checkbox" name="fav_game" required>设计
-    
+
         <hr>
-    
+
         <!-- 兴趣爱好
         <br>
         <input type="radio" name="fav_game" value="game">游戏
@@ -25,17 +33,98 @@
         <input type="radio" name="fav_game">电影 -->
 
         <input type="radio" name="sex" value="1" checked required>男
-        <input type="radio" name="sex" value="2" >女
-    
+        <input type="radio" name="sex" value="2">女
+
         <!-- <input type="text" autocomplete="on" name="data">
         <input type="text" autocomplete="on" name="data">
         <input type="text" autocomplete="on" autofocus name="data">
         <input type="text" autocomplete="on" name="data">
         <input type="text" autocomplete="on" name="data">
         <input type="text" autocomplete="on" name="data"> -->
-            <hr>
-            <input type="text" name="test"  value="wish1995" readonly required>
+        <hr>
+        <input type="text" name="test" value="wish1995" readonly required>
+
+
+        <hr>
+        <fieldset>
+            <legend>选择你的城市</legend>
+            <select name="postion" size="5" multiple>
+            <optgroup label="IT发达城市">
+                <option value="0">Beijing</option>
+                <option value="1">Shanghai</option>
+                <option value="3">Guangzhou</option>
+            </optgroup>
+            <option value="2">Shenzhen</option>
+            <option value="4">Hangzhou</option>
+        </select>
+        </fieldset>
+
+
+        <hr>
+
+        <fieldset>
+            <legend>选择你的偶像</legend>
+            <input list="stars" name="myBrowser" />
+            <input list="stars" name="myBrowser" />
+            <input list="stars" name="myBrowser" />
+            <input list="stars" name="myBrowser" />
+        </fieldset>
+
+        <datalist id="stars">
+            <option value="周杰伦">
+                <option value="周杰">
+                    <option value="周慧敏">
+                        <option value="周星驰">
+        </datalist>
+
+        <hr>
+
+        <meter width="200px" min="0" max="1000" value="150">350 degrees</meter>
+
+
+        <hr>
+        <textarea name="" maxlength="10" minlength="5" id="" cols="30" rows="10"></textarea>
+
         <input type="submit">
     </form>
+
+    <hr>
+
+    <details>
+        <summary>Some details</summary>
+        <p>More info about the details.</p>
+        <p>More info about the details.</p>
+        <p>More info about the details.</p>
+        <p>More info about the details.</p>
+        <p>More info about the details.</p>
+    </details>
+    <details open>
+        <summary>Even more details</summary>
+        <p>Here are even more details about the details.</p>
+    </details>
+
+    <hr>
+
+    <!-- <dialog open>
+        <p>Greetings, one and all!</p>
+    </dialog> -->
+
+    <hr>
+
+    <button type="menu" menu="dropdown-menu">
+            Dropdown
+          </button>
+          
+          <menu type="context" id="dropdown-menu">
+            <menuitem label="Action">
+            <menuitem label="Another action">
+            <hr>
+            <menuitem label="Separated action">
+          </menu>
+
+
+        <iframe width="1000px" height="800px" src="https://www.baidu.com" />
+
 </body>
+
 </html>

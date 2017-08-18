@@ -138,6 +138,9 @@
     tbody
     tfoot
 
+    caption     在table标签内部写，但显示在外部
+    colgroup
+
 # 表单
 
     form
