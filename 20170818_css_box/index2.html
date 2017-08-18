@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"]{
+            display: none;
+        }
+
+        input[type="checkbox"]:checked+label {
+            border: 2px solid #f00;
+            /* background: url('./2.jpg'); */
+        }
+
+        label {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            border: 2px solid #fff;
+        }
+        label[for="jay1"]{
+            background: url('./1.jpg');
+        }
+        label[for="jay2"]{
+            background: url('./2.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <input type="checkbox" name="user1" id="jay1">
+        <label for="jay1"></label>
+        <input type="checkbox" name="user2" id="jay2">
+        <label for="jay2"></label>
+        <input type="submit" value="tijiao">
+    </form>
+</body>
+
+</html>
