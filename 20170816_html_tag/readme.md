@@ -34,10 +34,10 @@
         <li>baidu</li>
     </ul>
 ```
-
     reversed    倒序,只改变序号，不改变内容
 
     start       起始序号,可与reversed搭配使用
+                只能是数字         
 
     type        ol:
                 'a' 表示小写字母编号；
@@ -48,13 +48,13 @@
 
                 ul:
 
-                circle
-                disc
-                square
+                circle 空心圆
+                disc  默认值 实心圆
+                <square>  实心方块
 
 ### 1.1.2. 自定义列表
 
-    dl
+    dl 
 
 ## 1.2. 其它语义化标签
 
@@ -88,7 +88,7 @@
 
 # 3. 链接/锚点
 
-    a
+    a  
             href    链接的地址
 
     锚点      给网页上的某一个位置，做的一个标记，可以通过a链接直接跳到指定位置去
@@ -131,6 +131,7 @@
     align(l,c,r)    0.5         1       1
     valign(t,m,b)   0           1       1
 
+    以下两个属性只在td上
     rowspan 向下合并    合并行             1
     colspan 向右合并    合并列             1
 
@@ -138,7 +139,7 @@
     tbody
     tfoot
 
-    caption     在table标签内部写，但显示在外部
+    caption     在table标签内部写，但显示在外部 
     colgroup
 
 # 表单

@@ -1,0 +1,15 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background: #f00;
+    text-align: center;
+}
+span{
+    color: #34f234;
+    font-family: "微软雅黑";
+    font-size: 40px;
+    font-style: italic;
+
+
+
+}
